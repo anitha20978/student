@@ -1,0 +1,17 @@
+<1Doctype html>
+<html>
+<head>
+    <title>Button Example</title>
+</head> 
+<body>
+    <button id="btn">Click Me</button>
+    <h2 id = "message"></h2>
+    <script>
+        let button = document.getElementById("btn");
+        let message = document.getElementById("message");
+        button.addEventListener("click", function() {
+            message.textContent = "Button Clicked sucessfully!";
+        });
+    </script>   
+</body>
+</html>

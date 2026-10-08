@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration</h1>
+
+    <form>
+
+        <label for="name">
+            Full Name:
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            name="name">
+
+        <br><br>
+
+        <label for="email">
+            Email:
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email">
+
+        <br><br>
+
+        <label for="password">
+            Password:
+        </label>
+
+        <input
+            type="password"
+            id="password"
+            name="password">
+
+        <br><br>
+
+        <label for="age">
+            Age:
+        </label>
+
+        <input
+            type="number"
+            id="age"
+            name="age">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input
+            type="radio"
+            name="gender"
+            value="male">
+        Male
+
+        <input
+            type="radio"
+            name="gender"
+            value="female">
+        Female
+
+        <br><br>
+
+        <label>Skills:</label>
+
+        <input
+            type="checkbox"
+            name="skill"
+            value="java">
+        Java
+
+        <input
+            type="checkbox"
+            name="skill"
+            value="python">
+        Python
+
+        <input
+            type="checkbox"
+            name="skill"
+            value="javascript">
+        JavaScript
+
+        <br><br>
+
+        <label for="course">
+            Course:
+        </label>
+
+        <select id="course" name="course">
+
+            <option value="">
+                Select Course
+            </option>
+
+            <option value="java">
+                Java Full Stack
+            </option>
+
+            <option value="python">
+                Python Full Stack
+            </option>
+
+            <option value="web">
+                Web Development
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <label for="message">
+            Address:
+        </label>
+
+        <br>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40">
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+</body>
+</html>
